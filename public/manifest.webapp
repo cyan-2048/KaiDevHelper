@@ -1,15 +1,11 @@
 {
-	"name": "Preact App",
+	"name": "KaiDevHelper",
 	"description": "A starter template for Preact and TypeScript.",
 	"version": "1.0.0",
 	"launch_path": "/index.html",
 	"theme": "#fff",
 	"theme_color": "#fff",
 	"background_color": "#fff",
-	"fullscreen": "true",
-	"chrome": {
-		"statusbar": "overlap"
-	},
 	"orientation": "default",
 	"icons": {
 		"56": "/icon56.png",
@@ -19,12 +15,32 @@
 		"name": "cyan-2048",
 		"url": "https://github.com/cyan-2048/kaios-preact-starter"
 	},
-	"origin": "app://preact-app.cyankindasus.com",
-	"type": "privileged",
-	"permissions": {},
+	"origin": "app://kaidevhelper.cyankindasus.com",
+	"type": "certified",
+	"permissions": {
+		"engmode-extension": {
+			"description": "Handle KaiOS 2.5.1+ devices"
+		},
+		"external-api": {
+			"description": "Handle KaiOS 2.5.1+ devices"
+		},
+		"kaiosextension": {
+			"description": "Handle KaiOS 2.5 devices"
+		},
+		"jrdextension": {
+			"description": "Handle KaiOS 1.0 devices by TCL"
+		},
+		"settings": {
+			"access": "readwrite",
+			"description": "Enable hidden settings modification"
+		},
+		"wifi-manage": {
+			"description": "Required to get local network IP."
+		}
+	},
 	"locales": {
 		"en-US": {
-			"name": "Preact App",
+			"name": "KaiDevHelper",
 			"subtitle": "A starter template for Preact and TypeScript.",
 			"description": "A starter template for Preact and TypeScript."
 		}
