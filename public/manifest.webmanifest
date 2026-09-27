@@ -1,0 +1,36 @@
+{
+  "id": "kaidevhelper",
+  "name": "KaiDevHelper",
+  "short_name": "KaiDevHelper",
+  "description": "KaiDevHelper",
+  "start_url": "/index.html",
+  "orientation": "natural",
+  "dir": "auto",
+  "lang": "en-US",
+  "display": "standalone",
+  "theme": "#fff",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "categories": [],
+  "icons": [
+    { "src": "/icon56.png", "type": "image/png", "sizes": "56x56" },
+    { "src": "/icon112.png", "type": "image/png", "sizes": "112x112" }
+  ],
+  "b2g_features": {
+    "core": true,
+    "display": "KaiDevHelper",
+    "version": "1.0.0",
+    "default_locale": "en-US",
+    "developer": {
+      "name": "cyan-2048",
+      "url": "https://github.com/cyan2048/KaiDevHelper"
+    },
+    "cursor": false,
+    "fullscreen": false,
+    "origin": "kaidevhelper",
+    "focus_color": "#fff",
+    "permissions": {
+      "mobileconnection": {}
+    }
+  }
+}
